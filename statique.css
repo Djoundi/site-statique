@@ -65,7 +65,7 @@ button {
 .image {
     height: 450px;
     color: #152237;
-    background-image: linear-gradient(90deg, rgba(68,221,138,0.7), rgba(21,183,226,0.7)), url('bg-header.png');
+    background-image: linear-gradient(90deg, rgba(68,221,138,0.7), rgba(21,183,226,0.7)), url('/ressources/bg-header.png');
     background-size: cover;
     background-position: center;
     display: flex;
