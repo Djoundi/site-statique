@@ -1,0 +1,739 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #152237;
+    padding: 10px 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 237px;
+}
+
+nav img {
+    height: 30px;
+}
+
+#recherche {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 8px 12px;
+    width: 300px;
+    color: white;
+    align-content: center;
+}
+
+#recherche::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.formation {
+    color: white;
+    font-size: 17px;
+    white-space: nowrap;
+}
+
+nav div {
+    margin-left: auto;
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #152237;
+}
+
+.Connexion {
+    background-color: white;
+    border: none;
+}
+
+.inscription {
+    background: linear-gradient(90deg, #44dd8a 19%, #15b7e2 100%);
+    color: white;
+    border: none;
+}
+
+.image {
+    height: 450px;
+    color: #152237;
+    background-image: linear-gradient(90deg, rgba(68,221,138,0.7), rgba(21,183,226,0.7)), url('bg-header.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.pl {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.Ensavoirplus {
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.carte,
+.carte1 {
+    padding: 60px 100px;
+}
+
+.carte h2,
+.carte1 h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.firstcolumn {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.class1 {
+    width: 25%;
+}
+
+.class1 .img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-wrapper {
+    position: relative;
+}
+
+.price-badge {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background-color: #0f1d2f;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.price-badge span {
+    font-size: 12px;
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+.stars i {
+    color: #f1c40f;
+}
+
+.carte1 {
+    background-color: #152237;
+    color: white;
+}
+
+.voirPlus,
+.voirPlus1 {
+    display: block;
+    margin: 40px auto 0 auto;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.AvisClients {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.client-card {
+    width: 450px;
+    text-align: left;
+}
+
+.client-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avantages {
+    padding: 80px 100px;
+    background-color: #f5f5f5;
+}
+
+.avantages-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avantages-texte {
+    width: 50%;
+}
+
+.avantages-img {
+    width: 45%;
+}
+
+.creez {
+    background-color: #44dd8a;
+    padding: 80px 100px;
+}
+
+.creez-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.creez-img {
+    width: 50%;
+}
+
+.creez-texte {
+    width: 50%;
+}
+
+.creez-texte h2 {
+    color: #152237;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.ligne {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.ligne img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.ligne p {
+    font-size: 17px;
+    margin: 0;
+    color: #152237;
+}
+
+.apropos {
+    padding: 0;
+}
+
+.apropos-container {
+    display: flex;
+    width: 100%;
+}
+
+.apropos-left {
+    width: 50%;
+    padding: 80px 100px;
+    background-color: #f5f5f5;
+}
+
+.apropos-right {
+    width: 50%;
+    background-color: #152237;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apropos-right img {
+    width: 280px;
+}
+
+.contact {
+    padding: 120px 0 140px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.contact h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #152237;
+}
+
+.contact h2::after {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 2px;
+    background: linear-gradient(90deg, #44dd8a, #15b7e2);
+    margin: 18px auto 80px;
+}
+
+.contact-form {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    margin-bottom: 50px;
+}
+
+.contact-row input {
+    width: 100%;
+    height: 48px;
+    padding: 0 20px;
+    background-color: #152237;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 260px;
+    padding: 20px;
+    background-color: #152237;
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.contact button {
+    background-color: #44dd8a;
+    color: #152237;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 12px 90px;
+    border: none;
+    border-radius: 6px;
+}
+.footer {
+    background-color: #0f1d2f;
+    color: white;
+    padding: 60px 140px 30px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-links,
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-links a {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.footer-contact p {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-buttons .Connexion {
+    padding: 10px 26px;
+}
+
+.footer-buttons .inscription {
+    padding: 10px 26px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    border-top: 1px solid rgba(68,221,138,0.5);
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.footer-socials::before {
+    content: "Suivez - nous";
+    margin-right: 15px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.footer-socials i {
+    font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    nav {
+        padding: 20px;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    nav img {
+        height: 40px;
+    }
+
+
+    .formation,
+    #recherche,
+    nav div {
+        display: none;
+    }
+
+    .image {
+        padding: 50px 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .h1 {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+
+    .pl {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-top: 12px;
+    }
+
+    .Ensavoirplus {
+        margin-top: 30px;
+        width: 30%;
+    }
+
+    .carte,
+    .carte1 {
+        padding: 40px 20px;
+    }
+
+    .carte h2,
+    .carte1 h2 {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .firstcolumn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .class1 {
+        width: 305px;
+        max-width: 100%;
+    }
+
+    .class1 .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .class1 h3 {
+        font-size: 18px;
+        margin: 12px 0 6px;
+    }
+
+    .class1 p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .price-badge {
+        bottom: 10px;
+        right: 10px;
+        font-size: 13px;
+    }
+
+    .voirPlus,
+    .voirPlus1 {
+        width: 50%;
+        margin-top: 35px;
+    }
+
+    .AvisClients {
+        padding: 50px 20px;
+    }
+
+    .AvisClients h2 {
+        font-size: 22px;
+    }
+
+    .clients {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .client-card {
+        width: 100%;
+        text-align: left;
+    }
+
+    .client-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .avantages {
+        padding: 50px 20px;
+    }
+
+    .avantages-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .avantages-texte h2 {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .avantages-texte p {
+        font-size: 14px;
+    }
+
+    .avantages-img {
+        width: 100%;
+    }
+
+    .creez {
+        padding: 50px 20px;
+    }
+
+    .creez-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .creez-img {
+        width: 100%;
+    }
+
+    .creez-texte h2 {
+        font-size: 22px;
+    }
+
+    .ligne p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .apropos-container {
+        flex-direction: column;
+    }
+
+    .apropos-left {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    .apropos-left h2 {
+        font-size: 22px;
+    }
+
+    .apropos-left p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .apropos-right {
+        display: none;
+    }
+
+    .contact {
+        padding: 50px 20px 70px;
+    }
+
+    .contact h2 {
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+
+    .contact h2::after {
+        display: none;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-row {
+        flex-direction: column;
+        gap: 18px;
+        margin-bottom: 18px;
+    }
+
+    .contact-row input {
+        height: 48px;
+        padding: 0 18px;
+        font-size: 14px;
+    }
+
+    .contact textarea {
+        height: 220px;
+        padding: 18px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .contact button {
+        width: 50%;
+        padding: 14px 0;
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 50px 20px 30px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        padding-bottom: 35px;
+    }
+
+    .footer-logo img {
+        width: 160px;
+    }
+
+    .footer-links,
+    .footer-contact {
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer-links h4,
+    .footer-contact h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .footer-links a,
+    .footer-contact p {
+        font-size: 14px;
+        opacity: 0.85;
+    }
+
+    .footer-contact p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footer-buttons {
+        display: none;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        border-top: 1px solid rgba(68,221,138,0.5);
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+        opacity: 0.7;
+    }
+
+    .footer-socials {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer-socials::before {
+        display: none;
+    }
+
+    .footer-socials i {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .firstcolumn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .class1 {
+        width: 100%;
+    }
+}
